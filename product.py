@@ -1,15 +1,15 @@
 from tkinter import *
 
 window = Tk()
-window.title("Product of two numbers")
-window.geometry('600x700')
+window.title("Getting started with widgets")
+window.geometry('400x300')
 
-welcome_label = Label(text = "Hello there", fg= "blue", bg="#00FF00", height=1, width=600)
+welcome_label = Label(text = "Hello there", fg= "blue", bg="#00FF00", height=1, width=400)
 
-first_number_label = Label(text = "Enter your first number", fg= "white", bg = "#FFA500", height= 1, width= 600)
+first_number_label = Label(text = "Enter your first number", fg= "white", bg = "#FFA500", height= 1, width= 400)
 first_number_entry = Entry()
 
-second_number_label = Label(text = "Enter your second number", fg= "white", bg = "#FF0059", height= 1, width= 600)
+second_number_label = Label(text = "Enter your second number", fg= "white", bg = "#FF0059", height= 1, width= 400)
 
 second_number_entry = Entry()
 
